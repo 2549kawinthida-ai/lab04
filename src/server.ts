@@ -40,5 +40,5 @@ app.post("/todos", (req, res) => {
     saveTodos(updatedTodos);
 });
 
-//Problem 1
-app.listen(5000, () => { console.log("Open: http://localhost:5000/hello?name=Kawintida")});
+//Problem 1 & 3
+app.listen(5000, () => { console.log("Open: http://localhost:5000")});
